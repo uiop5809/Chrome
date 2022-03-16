@@ -16,7 +16,6 @@ function paintGrettings(username) {
 }
 
 const savedUsername = localStorage.getItem("username");
-
 if (savedUsername == null) {
   loginForm.addEventListener("submit", onLoginSubmit);
 } else {
