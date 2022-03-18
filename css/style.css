@@ -1,3 +1,89 @@
+/* COMMON */
 .hidden {
   display: none;
+}
+
+body {
+  color: white;
+}
+
+/* BACKGROUND */
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/* CLOCK */
+#clock {
+  text-align: center;
+  margin-top: 170px;
+  font-size: 150px;
+  font-weight: 800;
+  text-shadow: 3px 3px 7px black;
+}
+
+/* GREETING */
+#greeting {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: 500;
+  text-shadow: 3px 3px 5px black;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form input {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* TODO */
+#todo-form {
+  text-align: center;
+}
+
+#todo-form input {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#todo-list {
+  text-align: center;
+}
+
+#todo-list li {
+  font-size: 30px;
+}
+
+/* QUOTES */
+#quote {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#quote span:first-child {
+  font-size: 18px;
+}
+
+#quote span:last-child {
+  font-size: 15px;
+}
+
+/* WEATHER */
+#weather {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 10px;
 }
